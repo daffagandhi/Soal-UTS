@@ -1,0 +1,20 @@
+package mobil;
+
+public class mobil1 {
+    String warna;
+    int tahunproduksi;
+}
+
+package mobil;
+
+public class mobilberaksi {
+    public static void main(String[] args) {
+        mobil1 mobilGandhi = new mobil1();
+        
+        mobilGandhi.warna = "hitam";
+        mobilGandhi.tahunproduksi = 2018;
+        
+        System.out.println("warna: " + mobilGandhi.warna);
+        System.out.println("tahun produksi: " + mobilGandhi.tahunproduksi);
+    }
+}
